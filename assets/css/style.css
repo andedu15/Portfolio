@@ -20,6 +20,7 @@ body {
 
 header {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   padding: 1%;
@@ -94,12 +95,7 @@ form label {
   text-align: center;
 }
 
-.content1-1 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
+.content1-1,
 .content1-2 {
   display: flex;
   flex-wrap: wrap;
@@ -107,9 +103,15 @@ form label {
 }
 
 .gps {
-  display: flex;
   position: relative;
   text-align: center;
+  max-width: 600px;
+}
+
+.gps img {
+  width: 100%;
+  border: var(--border-image);
+  border-radius: 20px 0 20px 0;
 }
 
 .calculator,
@@ -117,25 +119,25 @@ form label {
 .auto-click,
 .weather {
   position: relative;
-  display: inline-block;
   text-align: center;
+  margin: 50px;
+  max-width: 500px;
 }
 
-.title {
-  position: absolute;
-  top: 55px;
-  left: 54px;
-  width: 100px;
-  height: 30px;
-  background-color: #e98e06;
+.calculator img,
+.translate img,
+.auto-click img,
+.weather img {
+  width: 100%;
+  border: var(--border-image);
   border-radius: 20px 0 20px 0;
-  color: black;
 }
 
+.title,
 .title-gps {
   position: absolute;
   top: 0px;
-  left: px;
+  left: 0px;
   width: 150px;
   height: 30px;
   background-color: #e98e06;
@@ -143,23 +145,9 @@ form label {
   color: black;
 }
 
-.gps img {
-  max-height: 700px;
-  max-width: 700px;
-  border: var(--border-image);
-  border-radius: 20px 0 20px 0;
-}
 
-.calculator img,
-.translate img,
-.auto-click img,
-.weather img {
-  max-height: 500px;
-  max-width: 500px;
-  margin: 50px;
-  border: var(--border-image);
-  border-radius: 20px 0 20px 0;
-}
+
+
 
 #avatar {
   width: 100px;
@@ -246,10 +234,9 @@ i:hover {
 @media screen and (max-width: 768px) {
   header {
     flex-direction: column;
-    width: 1000px;
   }
 
-  main {
+  /* main {
     max-width: 1200px;
   }
 
@@ -257,11 +244,8 @@ i:hover {
     min-width: 800px;
   }
 
-  footer {
-    min-width: 1000px;
-  }
 
   .back-image {
     width: 1000px;
-  }
+  } */
 }
