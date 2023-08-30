@@ -83,7 +83,8 @@ form label {
 
 .content {
   width: 75%;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   margin-left: 20px;
   justify-content: center;
   background-color: var(--bolt);
@@ -210,6 +211,7 @@ h1:hover,
 main {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 article {
