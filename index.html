@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Full Stack Developer / Andres</title>
+  <link rel="stylesheet" href="./assets/css/reset.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+</head>
+
+<body>
+  <header>
+    <!-- Main title -->
+    <a href="#">
+      <h1>Full Stack Dev / Andres Mejia</h1>
+    </a>
+    <!-- Nav Bar -->
+    <nav>
+      <ul>
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact-me">Contact</a></li>
+        <li><a href="#social">Social</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Main image -->
+  <section class="back-image"></section>
+  <main>
+    <aside id="about-me">
+      <!-- My avatar and text abaut me -->
+      <img src="assets/img/Avatar.jpeg" alt="image loading" id="avatar" />
+      <p>
+        It will stack BELOW the Lorem, ipsum dolor sit amet consectetur
+        adipisicing elit. Quos mollitia corporis fugit. Esse, similique
+        molestiae facere eum repudiandae totam perferendis minus culpa natus
+        iste veritatis aut dignissimos velit, doloribus est!ody once the
+        screen hits 768px or smaller.
+      </p>
+      <!-- Form to contact me -->
+      <h2>Contact Me</h2>
+      <form id="contact-me">
+        <label for="fname">First name:</label><br />
+        <input type="text" id="fname" name="fname" /><br />
+        <label for="lname">Last name:</label><br />
+        <input type="text" id="lname" name="lname" /><br />
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="fname" /><br />
+        <label for="phone-number">Phone Number:</label><br />
+        <input type="number" id="phone-number" name="lname" /><br />
+        <label for="message">Message: </label><br />
+        <textarea name="comments" rows="12" cols="22"></textarea>
+        <input type="submit" value="Submit" id="button" />
+      </form>
+    </aside>
+    <!-- My projects -->
+    <section class="content" id="projects">
+      <h2>Projects</h2>
+      <!-- Main project -->
+      <div class="content1-1">
+        <a href="http://andedu15.github.io/challenge_1/" target="_blank">
+          <div id="gps" class="gps">
+            <img src="assets/img/code-refactored.png" class="float-left" alt="Graphic with Coming Soon text" />
+            <div class="title-gps">Code Refactored</div>
+          </div>
+        </a>
+      </div>
+      <!-- Coming soon projects -->
+      <div class="content1-2">
+        <a href="http://andedu15.github.io/challenge_1/">
+          <div id="calculator" class="calculator">
+            <img src="./assets/img/calculator-image.webp" class="float-right" alt="Graphic with Coming Soon text" />
+            <div class="title">Calculator</div>
+          </div>
+        </a>
+        <div id="translate" class="translate">
+          <img src="./assets/img/translate-image.png" class="float-left" alt="Graphic with Coming Soon text" />
+          <div class="title">Translate</div>
+        </div>
+        <div id="auto-click" class="auto-click">
+          <img src="./assets/img/autoclick-image.jpg" class="float-left" alt="Graphic with Coming Soon text" />
+          <div class="title">Auto-Click</div>
+        </div>
+        <div id="weather" class="weather">
+          <img src="./assets/img/weather-image.jpeg" class="float-left" alt="Graphic with Coming Soon text" />
+          <div class="title">Weather</div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- Footer with my personal links -->
+  <footer id="social">
+    <a href="https://github.com/andedu15?tab=repositories" target="_blank"><i class="bi bi-github" id="github"></i></a>
+    <a href="https://www.instagram.com/mejiandrese/?hl=es" target="_blank" id=""><i class="bi bi-instagram"
+        id="instagram"></i></a>
+    <a href="https://www.youtube.com/@andresmejia6325/about" target="_blank" id=""><i class="bi bi-youtube"
+        id="youtube"></i></a>
+  </footer>
+</body>
+
+</html>
