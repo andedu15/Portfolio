@@ -26,6 +26,7 @@ header {
   padding: 1%;
   background-color: var(--bolt);
   color: var(--light);
+  width: 100%;
 }
 
 header a {
@@ -219,6 +220,7 @@ footer {
   padding: 2%;
   background-color: var(--bolt);
   color: var(--nav-letter-color);
+  width: 100%;
 }
 
 i {
