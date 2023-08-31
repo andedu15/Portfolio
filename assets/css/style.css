@@ -227,3 +227,9 @@ i:hover {
   cursor: pointer;
   font-size: 35px;
 }
+
+@media screen and (max-width: 640px) {
+  header {
+    flex-direction: column;
+  }
+}
