@@ -38,7 +38,6 @@ h1 {
   color: var(--nav-letter-color);
 }
 
-
 .back-image {
   height: 800px;
   width: 100%;
@@ -103,13 +102,13 @@ form label {
   justify-content: center;
 }
 
-.gps {
+.code {
   position: relative;
   text-align: center;
   max-width: 600px;
 }
 
-.gps img {
+.code img {
   width: 100%;
   border: var(--border-image);
   border-radius: 20px 0 20px 0;
@@ -135,7 +134,7 @@ form label {
 }
 
 .title,
-.title-gps {
+.title-code {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -145,10 +144,6 @@ form label {
   border-radius: 20px 0 20px 0;
   color: black;
 }
-
-
-
-
 
 #avatar {
   width: 100px;
@@ -186,14 +181,13 @@ nav a:hover,
 h1:hover,
 .title:hover,
 #button:hover,
-.title-gps:hover {
+.title-code:hover {
   color: var(--light);
   cursor: pointer;
   font-size: 18px;
 }
 
-.float-left:hover,
-.float-right:hover {
+.image-project:hover {
   opacity: 80%;
   cursor: pointer;
 }
