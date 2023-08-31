@@ -36,7 +36,13 @@ Aside
 Footer
 
 ![image](https://github.com/andedu15/Portfolio/assets/126121687/e677f224-b680-4108-9bd2-ea6ea6b23fc5)
-<<<<<<< HEAD
 
-=======
->>>>>>> a51f7434204ac04fefc4e566868a475634d4d10a
+Responsive
+
+![Alt text](image.png)
+
+![Alt text](image-1.png)
+
+![Alt text](image-2.png)
+
+![Alt text](image-3.png)
