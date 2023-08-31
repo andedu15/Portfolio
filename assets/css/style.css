@@ -228,7 +228,7 @@ i:hover {
   font-size: 35px;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 680px) {
   header {
     flex-direction: column;
   }
