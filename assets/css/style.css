@@ -28,6 +28,9 @@ header {
   color: var(--light);
   width: 100%;
 }
+.nav-icon{
+  margin: 5px;
+}
 
 header a {
   text-decoration: none;
@@ -36,6 +39,10 @@ header a {
 h1 {
   font-size: 16px;
   color: var(--nav-letter-color);
+}
+h1::after{
+  content: "Andres Mejia";
+  color: var(--light);
 }
 
 .back-image {
@@ -217,18 +224,22 @@ footer {
   width: 100%;
 }
 
-i {
+#github,
+#instagram,
+#youtube {
   margin: 30px;
   font-size: 30px;
 }
 
-i:hover {
+#github:hover,
+#instagram:hover,
+#youtube:hover {
   color: var(--light);
   cursor: pointer;
   font-size: 35px;
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 800px) {
   header {
     flex-direction: column;
   }
