@@ -16,7 +16,7 @@ function generatePassword() {
   /* PASSWORD LENGTH */
   passwordLength = +prompt("Choose a length of at least 8 characters and no more than 128 characters");
   while (passwordLength < 8 || passwordLength > 128 || passwordLength == null || passwordLength == "" || isNaN(passwordLength)) {
-    passwordLength = +prompt("the number must be between 8 and a128. Choose a length of at least 8 characters and no more than 128 characters");
+    passwordLength = +prompt("the number must be between 8 and 128. Choose a length of at least 8 characters and no more than 128 characters");
   }
   alert("Your password will be "+passwordLength+" characters");
   passwordContent += "Lenght: "+passwordLength+"\n"
