@@ -1,0 +1,249 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  background-color: #eff5f8;
+  color: #e98e06;
+}
+
+h2,
+h3, h1 {
+  text-align: center;
+}
+
+#start{
+  background-color:	#373738;
+  border: 1px solid #eceff1;
+  border-radius: 8px;
+  box-shadow: rgba(60, 64, 67, 2) 0 1px 2px 0,
+    rgba(60, 64, 67, 0.15) 0 2px 4px 3px;
+  margin: 60px auto;
+  padding: 20px;
+  width: 60vw;
+}
+#start-button:hover, #submit-btn:hover, #again-btn:hover, #delete-btn:hover{
+  background-color: #fe2f00;
+  font-size: 1.25em;
+}
+
+.btn, #start-button, #submit-btn, #again-btn{
+  background-color: #e98e06;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.2em;
+  letter-spacing: 0.21px;
+  line-height: 16px;
+  padding: 20px 52px;
+  text-align: center;
+  transition-duration: 0.15s;
+  transition-timing-function: linear;
+  margin: 0.6em auto;
+  display: flex;
+}
+
+.btn:hover{
+  background-color: white;
+  color: black;
+}
+
+#next-btn{
+  background-color: #fe2f00;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.2em;
+  letter-spacing: 0.21px;
+  line-height: 16px;
+  max-width: 300px;
+  padding: 20px 52px;
+  text-align: center;
+  transition-duration: 0.15s;
+  transition-timing-function: linear;
+  margin: 0.6em auto;
+  display: none;
+}
+#delete-btn{
+  background-color: #e98e06;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.2em;
+  letter-spacing: 0.21px;
+  line-height: 16px;
+  max-width: 300px;
+  padding: 20px 35px;
+  text-align: center;
+  transition-duration: 0.15s;
+  transition-timing-function: linear;
+  margin: 0.6em auto;
+  display: none;
+}
+
+.app {
+  background-color:	#373738;
+  border: 1px solid #eceff1;
+  border-radius: 8px;
+  box-shadow: rgba(60, 64, 67, 2) 0 1px 2px 0,
+    rgba(60, 64, 67, 0.15) 0 2px 4px 3px;
+  margin: 60px auto;
+  padding: 20px;
+  width: 60vw;
+  display: none;
+}
+
+.correct{
+  background-color: green;
+}
+
+.incorrect{
+  background-color: red;
+}
+
+#input-container, #button-container{
+  display: none;
+}
+
+#table{
+  display: none;
+  margin: 20px;
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  color: #eceff1;
+}
+input{
+  width: 70px;
+  height: 40px;
+}
+
+td{
+  padding: 20px;
+  border: 3px solid #e98e06;
+}
+
+@media screen and (max-width: 1012px) {
+  #delete-btn, #again-btn {
+    font-size: 1em;
+    padding: 10px;
+  }
+  td{
+    padding: 4px;
+  }
+  table{
+    font-size: 0.6em;
+  }
+  #table{
+    margin: 0;
+  }
+  .btn, #start-button, #submit-btn{
+    font-size: 1.5em;
+    padding: 25px;
+  }
+  #next-btn{
+    font-size: 1em;
+    padding: 10px;
+  }
+  h1{
+    font-size: 1.5em;
+  }
+  h2{
+    font-size: 1em;
+  }
+  #timer{
+    font-size: 0.8em;
+  }
+  .btn{
+    font-size: 1em;
+    padding: 15px;
+  }
+  #start-button:hover, #submit-btn:hover, #again-btn:hover, #delete-btn:hover{
+    background-color: #fe2f00;
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 414px) {
+  #delete-btn, #again-btn {
+    font-size: 0.3em;
+    padding: 5px;
+  }
+  td{
+    padding: 4px;
+  }
+  table{
+    font-size: 0.6em;
+  }
+  #table{
+    margin: 0;
+  }
+  .btn, #start-button, #submit-btn{
+    font-size: 0.8em;
+    padding: 25px;
+  }
+  #next-btn{
+    font-size: 0.6em;
+    padding: 10px;
+  }
+  h1{
+    font-size: 1.3em;
+  }
+  h2{
+    font-size: 0.5em;
+  }
+  #timer{
+    font-size: 0.4em;
+  }
+  .btn{
+    font-size: 0.5em;
+    padding: 5px;
+  }
+  #start-button:hover, #submit-btn:hover, #again-btn:hover, #delete-btn:hover{
+    background-color: #fe2f00;
+    font-size: 0.3em;
+  }
+}
+@media screen and (max-width: 300px) {
+  #delete-btn, #again-btn {
+    font-size: 0.25em;
+    padding: 3px;
+  }
+  td{
+    padding: 4px;
+  }
+  table{
+    font-size: 0.4em;
+  }
+  #table{
+    margin: 0;
+  }
+  .btn, #start-button, #submit-btn{
+    font-size: 0.5em;
+    padding: 10px;
+  }
+  #next-btn{
+    font-size: 0.4em;
+    padding: 8px;
+  }
+  h1{
+    font-size: 0.8em;
+  }
+  h2{
+    font-size: 0.5em;
+  }
+  #timer{
+    font-size: 0.4em;
+  }
+  .btn{
+    font-size: 0.35em;
+    padding: 2px;
+  }
+  #start-button:hover, #submit-btn:hover, #again-btn:hover, #delete-btn:hover{
+    background-color: #fe2f00;
+    font-size: 0.3em;
+  }
+}
